@@ -1,0 +1,18 @@
+// Getting wireless set up
+
+1. Using a computer with an internet connection, download this file:
+	https://github.com/lwfinger/rtl8723au/archive/master.zip
+	put it on a USB stick you used for your Ubuntu install
+		also included in this repo
+
+2. Boot up Ubuntu and copy the zip file over. Unzip it and then open up a terminal
+
+3. cd into the rtl8723au directory and then type:
+	make
+
+4. Once compiling is done, type: 
+	make install
+
+5. Reboot and then use the wifi icon in the system tray to select your network
+
+If this doesn't work for you, try updating your kernel to 3.8 or 3.9
