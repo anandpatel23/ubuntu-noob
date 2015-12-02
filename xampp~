@@ -1,0 +1,34 @@
+// cd to downloads
+
+// root shell 
+sudo su
+
+// once downloaded .run
+sudo chmod 777 -R xamp-linux-x64-5.6.14-4-installer.run
+
+// run the installer once you have full acceess
+./xamp-linux-x64-5.6.14-4-installer.run
+
+//exit root shell
+exit
+
+// cd to /opt/lampp/htdocs
+cd /opt/lampp
+sudo chmod 777 htdocs
+
+// create folder with document (like demo.php)
+
+// start xampp 
+cd
+sudo su
+/opt/lampp/lampp start
+exit
+
+// go to chrome --> localhost/demo.php
+
+// stop xampp
+sudo su
+/opt/lampp/lampp stop 
+exit
+exit
+

@@ -1,0 +1,20 @@
+// install apps
+sudo apt-get update
+sudo apt-get install <app>
+
+// can't install with apt-get
+// delete lock file
+sudo rm /var/lib/apt/lists/lock
+// delete lock file in cache dir
+sudo rm /var/cache/apt/archives/lock
+
+// good ol' can't see mah mouse
+sudo rmmmod psmouse && sudo modprobe psmouse
+// or
+sudo rmmod psmouse
+sudo modprobe psmouse
+
+// ubuntu cmds on github
+
+// create file in current dir
+touch <file>
