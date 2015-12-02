@@ -16,7 +16,7 @@ exit
 cd /opt/lampp
 sudo chmod 777 htdocs
 
-// create folder with document (like demo.php)
+// create folder with document (like demo.php) within htdocs
 
 // start xampp 
 sudo /opt/lampp/lampp start
