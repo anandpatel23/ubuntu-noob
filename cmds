@@ -25,3 +25,6 @@ rm -rf *
 
 // lock screen (ubuntu)
 gnome-screensaver-command --lock
+
+// system monitor (ubuntu)
+gnome-system-monitor
