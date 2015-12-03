@@ -18,3 +18,7 @@ sudo modprobe psmouse
 
 // create file in current dir
 touch <file>
+
+// remove a files in current directory (not directory itself)
+cd dontDeleteMe
+rm -rf *
