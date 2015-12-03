@@ -22,3 +22,6 @@ touch <file>
 // remove a files in current directory (not directory itself)
 cd dontDeleteMe
 rm -rf *
+
+// lock screen (ubuntu)
+gnome-screensaver-command --lock
