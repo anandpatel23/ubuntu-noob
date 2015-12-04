@@ -1,0 +1,11 @@
+#!/bin/sh
+
+# $ sh solve <arithmetic expression>
+# ex: sh solve 8.5*5
+# output is 42.5
+
+bc << E0F
+scale=4
+$@
+quit
+E0F
