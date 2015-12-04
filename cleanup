@@ -1,0 +1,12 @@
+/*
+* time to tidy up
+* makes sure we have everything we want
+* get rid of any old dependencies
+* remove all packages we've downloaded and installed
+*/
+
+echo "Cleaning Up" &&
+sudo apt-get -f install &&
+sudo apt-get autoremove &&
+sudo apt-get -y autoclean &&
+sudo apt-get -y clean
