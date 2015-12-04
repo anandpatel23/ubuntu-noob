@@ -28,3 +28,16 @@ gnome-screensaver-command --lock
 
 // system monitor (ubuntu)
 gnome-system-monitor
+
+// adjust backlight brightness - acpi adds its own backlight control even if one is already present which is intel_backlight, adding this line forces acpi to use the intel backlight
+sudo nano /etc/default/grub
+
+change line 
+GRUB_CMDLINE_LINUX_DEFAULT="quiet splash" to
+GRUB_CMDLINE_LINUX_DEFAULT="quiet splash video.use_native_backlight=1"
+
+save and exit (ctrl+o, ctrl+x)
+
+sudo update-grub
+
+then reboot
