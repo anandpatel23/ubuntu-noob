@@ -1,0 +1,23 @@
+// open a folder from terminal
+nautilus /path/to/that/folder
+
+// open url
+google-chrome http://google.com
+firefox http://google.com
+
+// if you want to open two url's
+firefox www.google.com www.gmail.com
+
+// delete from cursor backwards
+ctrl + u
+
+// delete from cursor forward
+ctrl + k
+
+// clear screen, but commands previously still in buffer
+ctrl + l
+
+// look for commands in reverse search
+ctrl + r (finds command that matches argumen to be mentioned)
+
+
