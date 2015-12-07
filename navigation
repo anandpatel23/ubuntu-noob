@@ -1,0 +1,9 @@
+// open a folder from terminal
+nautilus /path/to/that/folder
+
+// open url
+google-chrome http://google.com
+firefox http://google.com
+
+// if you want to open two url's
+firefox www.google.com www.gmail.com
