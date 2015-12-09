@@ -41,3 +41,6 @@ save and exit (ctrl+o, ctrl+x)
 sudo update-grub
 
 then reboot
+
+// lock screen on ubuntu
+gnome-screensaver-command --lock

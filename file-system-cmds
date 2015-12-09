@@ -20,4 +20,5 @@ ctrl + l
 // look for commands in reverse search
 ctrl + r (finds command that matches argumen to be mentioned)
 
-
+// path
+env | less
